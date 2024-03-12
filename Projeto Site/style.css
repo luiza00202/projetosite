@@ -1,0 +1,151 @@
+
+    /*reset css ajusta a pagina(como se faz? olhe abaixo)*/
+    /*Reset CSS*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+section{
+  padding: 3rem 0 4rem 0;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h1.title{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gray{
+  background-color: #ebe9e9;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.intro p{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.intro .cta{
+  margin: 2rem 0;
+}
+
+.button {
+   /*background-color: #d542df;
+   color: white;*/
+   padding: 10px 25px;
+   text-decoration: none;
+   border-radius: 10px;
+   margin: 5px;
+   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:hover{
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.primary{
+  background-color: #3cbfa1;
+  color: white;
+}
+
+.secondary{
+  background-color: white;
+  color: #444;
+}
+
+.Cards{
+   display: flex;
+   justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 18%;
+  height: 150px;
+
+  border-radius: 10px;
+  color: white;
+  font-size: 1.7rem;
+}
+.card.red{
+  background-color: #ec454e;
+}
+.card.blue{
+  background-color: #42b0f8 ;
+}
+.card.purple{
+  background-color: #9e69d5;
+}
+.card.yellow{
+  background-color: #f4a823;
+}
+.card.green{
+  background-color: #3cbfa1;
+}
+
+.members{
+  display: flex;
+  justify-content: space-between;
+}
+
+.member img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+footer{
+  background-color:#3cbfa1;}
+
+  footer ul{
+    display:flex;
+    justify-content:space-evenly;
+
+    padding-top: 3rem;
+    list-style-type: none;
+  }
+
+  footer a{
+    color: white
+  }
+  footer p.copyright{
+    padding: 3rem 0;
+    color: #ffffffdd;
+    text-align: center;
+  }
