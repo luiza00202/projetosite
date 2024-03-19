@@ -8,6 +8,42 @@
   box-sizing: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: 444;
+}
+
+header div{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.logo img{
+  width: 211px;
+}
+
+.sing-in{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-in button{
+  border: none;
+}
+
+
+input[type="text"], 
+      [type="email"],
+       [type="password"]{
+  width: 180px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -25,10 +61,13 @@
   font-weight: 700;
   font-style: normal;
 }
-
+/*margens*/
 section{
   padding: 3rem 0 4rem 0;
 }
+
+
+
 
 h1{
   font-size: 3rem;
@@ -44,6 +83,7 @@ h1.title{
 .gray{
   background-color: #ebe9e9;
 }
+/* color zilla*/
 
 .container{
   max-width: 1000px;
@@ -51,6 +91,10 @@ h1.title{
   padding: 0 1rem;
 }
 
+.hero{
+  width: 60%;
+  margin: auto;
+}
 .intro p{
   margin: 1rem 0;
   font-size: 1.5rem;
@@ -66,8 +110,8 @@ h1.title{
    color: white;*/
    padding: 10px 25px;
    text-decoration: none;
-   border-radius: 10px;
-   margin: 5px;
+   border-radius: 5px;
+   margin: 10px;
    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
